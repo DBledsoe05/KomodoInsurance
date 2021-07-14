@@ -14,7 +14,6 @@ namespace DevTeamPoco
 
         public int TeamID { get; set; }
 
-        public List<Developers> TeamOfDevelopers { get; set; }
 
 
         public DevTeam()
@@ -22,11 +21,10 @@ namespace DevTeamPoco
 
         }
 
-        public DevTeam(string teamName, int teamId, List<Developers> teamOfDevelopers)
+        public DevTeam(string teamName, int teamId)
         {
             TeamName = teamName;
             TeamID = teamId;
-            TeamOfDevelopers = teamOfDevelopers;
         }
     }
 }

@@ -33,7 +33,6 @@ namespace DevTeamPoco
             {
                 oldContent.TeamName = newContent.TeamName;
                 oldContent.TeamID = newContent.TeamID;
-                oldContent.TeamOfDevelopers = newContent.TeamOfDevelopers;
 
                 return true;
             }

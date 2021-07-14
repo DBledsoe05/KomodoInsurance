@@ -72,7 +72,7 @@ namespace DeveloperPoco
         {
             foreach (Developers content in _listOfDevs)
             {
-                if(content.FirstName == firstName)
+                if (content.FirstName.ToLower() == firstName.ToLower())
                 {
                     return content;
                 }
